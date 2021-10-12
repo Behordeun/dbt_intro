@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: demo_sources
+    database: demo_db
+    schema: public
+
+      freshness:
+        warn_after: {count: 20, period: minute}
+        error_after: {count: 30, period: minute}
+
+      loaded_at_field: created_at
+
+    tables:
+      - name: my_fav_source
+        description: 'You already know.'
+        columns:
+          -name: id
+          - name: name
+          - name: created_at

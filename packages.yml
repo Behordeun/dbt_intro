@@ -1,0 +1,11 @@
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 0.7.3
+
+#  - package: dbt-labs/snowplow
+#    version: 0.13.1
+#
+#  - package: dbt-labs/logging
+#    version: 0.5.0
+#
+#  - local: /opt/dbt/redshift
