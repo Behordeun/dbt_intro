@@ -1,20 +1,18 @@
 # Welcome to your new dbt project
 
-This tutorial makes use of **Visual Studio Code (VSC)** as the **IDE**, **Snowflake** as the **data warehouse**.
+This tutorial makes use of **Visual Studio Code (VSC)** as the **IDE**, **Snowflakes** as the **data warehouse**.
 
-I will attempt to be very detailed in my explanations as to using **dbt** with **Snowflake**
+I will attempt to be very detailed in my explanations as to using **dbt** with **Snowflakes**
 
-## Creating a snowflake account
+## Creating a snowflakes account
 
-As a new user: simply navigate to the [snowflake sign up page](https://signup.snowflake.com/?_ga=2.39988834.1303182868.1634285132-1006226680.1634285132) and get started with the 30-days free trial (you can do an actual subscription if you can afford one). Proceed to fill in your details, and an activation mail will be sent to your email. click on the activation link and chose a user name, your preferred cloud provider **(Google Cloud, Microsoft Azure, or Amazon Web Services)**. Thereafter, you can proceed to the login page. (You will want to bookmark this page for easy accessibility)
+As a new user: simply navigate to the [snowflakes sign up page](https://signup.snowflake.com/?_ga=2.39988834.1303182868.1634285132-1006226680.1634285132) and get started with the 30-days free trial (you can do an actual subscription if you can afford one). Proceed to fill in your details, and an activation mail will be sent to your email. click on the activation link and chose a user name, your preferred cloud provider **(Google Cloud, Microsoft Azure, or Amazon Web Services)**. Thereafter, you can proceed to the login page. (You will want to bookmark this page for easy accessibility)
 
 Now take note of your username, account_link (something like this: mf*****.us-central1.gcp) this assumes that I am using gcp as my cloud provider, click on the icon where your username is captured, select switch role (account admin is what is used in this tutorial, you might want to try something else), you also will want to check for the following:
 
 - warehouse name
 - Database name
 - Schema
-
-[Click](https://docs.snowflake.com/en/user-guide/setup.html) to read more about snowflake.
 
 ### Initializing dbt Project
 
@@ -37,6 +35,7 @@ After updating the **profiles.yml** file, navigate back to the **dbt_project.yml
 
 Try running the following commands:
 
+- dbt debug (if this run successfully, then you are ready to start exploring **dbt** leveraging the full power of **snowflakes**)
 - dbt run
 - dbt test
 
@@ -47,3 +46,4 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Learn more about snowflakes [in the docs](https://docs.snowflake.com/)
