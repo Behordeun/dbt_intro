@@ -1,13 +1,43 @@
-Welcome to your new dbt project!
+# Welcome to your new dbt project
 
+This tutorial makes use of **Visual Studio Code (VSC)** as the **IDE**, **Snowflake** as the **data warehouse**.
+
+I will attempt to be very detailed in my explanations as to using **dbt** with **Snowflake**
+
+## Creating a snowflake account
+
+As a new user: simply navigate to the [snowflake sign up page](https://signup.snowflake.com/?_ga=2.39988834.1303182868.1634285132-1006226680.1634285132) and get started with the 30-days free trial (you can do an actual subscription if you can afford one). Proceed to fill in your details, and an activation mail will be sent to your email. click on the activation link and chose a user name, your preferred cloud provider **(Google Cloud, Microsoft Azure, or Amazon Web Services)**. Thereafter, you can proceed to the login page. (You will want to bookmark this page for easy accessibility)
+
+Now take note of your username, account_link (something like this: mf*****.us-central1.gcp) this assumes that I am using gcp as my cloud provider, click on the icon where your username is captured, select switch role (account admin is what is used in this tutorial, you might want to try something else), you also will want to check for the following:
+
+- warehouse name
+- Database name
+- Schema
+
+[Click](https://docs.snowflake.com/en/user-guide/setup.html) to read more about snowflake.
+
+### Initializing dbt Project
+
+To get started:
+
+- Install the dbt module on your computer using "pip command": **"pip install dbt"**. You can verify the information about your current installed version using **"pip show dbt"** command.
+- Create an empty folder/directory on your computer.
+- Create a new repository on your github account do not select the **.gitignore, README.md and LICENSE** options (optional, but a good practice).
+- Copy the link to the repository you have just created.
+- From your IDE (VSC), navigate to the folder you created in step 1, and clone the repository into the new directory created using the **"git clone"** command.
+- Initialize your dbt project using the **"dbt init"** command. Here, you will need to give your project a name. The command for this is: **"dbt init [project_name]"**
+- Once you are done doing this, if you navigate to your **home directory** (for windows users: C:/Users/account_name; for linux users: /home/account_name), you notice that a new folder/directory **(.dbt)** has been created there (you may have to enable the **show hidden files** option on your computer to be able to view this folder). There are two files in this directory; **profiles.yml** and **users.yml**.
+- Now open the **profiles.yml** file with your editor, and update the content with appropriate details. A sample template is attached in this repository.
+  
 ### Using the starter project
 
 Try running the following commands:
+
 - dbt run
 - dbt test
 
+### Resources
 
-### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support

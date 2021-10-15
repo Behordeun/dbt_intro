@@ -1,0 +1,21 @@
+
+# for more information on how to configure this
+# https://docs.getdbt.com/docs/profile
+
+snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: [account_name]
+
+      # User/password auth
+      user: [username]
+      password: [password]
+
+      role: [account_role]
+      database: [database_name]
+      warehouse: [warehouse_name]
+      schema: [schema_name]
+      threads: 10
+      client_session_keep_alive: False
