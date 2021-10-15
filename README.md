@@ -27,7 +27,11 @@ To get started:
 - From your IDE (VSC), navigate to the folder you created in step 1, and clone the repository into the new directory created using the **"git clone"** command.
 - Initialize your dbt project using the **"dbt init"** command. Here, you will need to give your project a name. The command for this is: **"dbt init [project_name]"**
 - Once you are done doing this, if you navigate to your **home directory** (for windows users: C:/Users/account_name; for linux users: /home/account_name), you notice that a new folder/directory **(.dbt)** has been created there (you may have to enable the **show hidden files** option on your computer to be able to view this folder). There are two files in this directory; **profiles.yml** and **users.yml**.
-- Now open the **profiles.yml** file with your editor, and update the content with appropriate details. A sample template is attached in this repository.
+- Now open the **profiles.yml** file with your editor, and update the content with appropriate details. A sample template **(profiles.ym)** is attached in this repository.
+
+You will notice from the initialized project that new files and directories are being added to your current directory.
+
+After updating the **profiles.yml** file, navigate back to the **dbt_project.yml** file and change the model name to name of your initialized model. Thereafter, proceed to towards the end of the page, and update the model name to match with the earlier stated name.
   
 ### Using the starter project
 

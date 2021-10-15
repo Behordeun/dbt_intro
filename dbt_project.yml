@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'demo_dbt'
+name: 'dbt_intro'
 version: '1.0.0'
 config-version: 2
 
@@ -42,7 +42,7 @@ on-run-end: "{{ insert_audits ('run_end') }}"
 models:
   pre-hook: "{{ insert_audits ('model_start') }}"
   post-hook: "{{ insert_audits ('model_end') }}"
-  demo_dbt:
+  dbt_intro:
       # Applies to all files under models/staging/
       staging:
           +materialized: view
