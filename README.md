@@ -8,7 +8,11 @@ I will attempt to be very detailed in my explanations as to using **dbt** with *
 
 As a new user: simply navigate to the [snowflakes sign up page](https://signup.snowflake.com/?_ga=2.39988834.1303182868.1634285132-1006226680.1634285132) and get started with the 30-days free trial (you can do an actual subscription if you can afford one). Proceed to fill in your details, and an activation mail will be sent to your email. click on the activation link and chose a user name, your preferred cloud provider **(Google Cloud, Microsoft Azure, or Amazon Web Services)**. Thereafter, you can proceed to the login page. (You will want to bookmark this page for easy accessibility)
 
-Now take note of your username, account_link (something like this: mf*****.us-central1.gcp) this assumes that I am using gcp as my cloud provider, click on the icon where your username is captured, select switch role (account admin is what is used in this tutorial, you might want to try something else), you also will want to check for the following:
+Now take note of your username, account_link (something like this: **mf.....**.us-central1.gcp) this assumes that I am using gcp as my cloud provider, and my **data center** is in us-central. 
+
+Click on the icon where your username is captured, select switch role (account admin is what is used in this tutorial, you might want to try something else).
+
+You also need want to check for the following:
 
 - warehouse name
 - Database name
@@ -45,5 +49,5 @@ Try running the following commands:
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-Learn more about snowflakes [in the docs](https://docs.snowflake.com/)
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices.
+- Learn more about snowflakes [in the docs](https://docs.snowflake.com/)
