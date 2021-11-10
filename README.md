@@ -40,6 +40,7 @@ After updating the **profiles.yml** file, navigate back to the **dbt_project.yml
 Try running the following commands:
 
 - dbt debug (if this run successfully, then you are ready to start exploring **dbt** leveraging the full power of **snowflakes**)
+- dbt seed (to upload the attached csv file in __Data__ folder to your snowflake warehouse)
 - dbt run
 - dbt test
 
@@ -51,3 +52,17 @@ Try running the following commands:
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices.
 - Learn more about snowflakes [in the docs](https://docs.snowflake.com/)
+
+__Author:__ Muhammad Abiodun Sulaiman
+
+__Email:__ prince.behordeun@gmail.com or abiodun.msulaiman@gmail.com
+
+__LinkedIn:__ [Muhammad Abiodun Sulaiman](https://www.linkedin.com/in/muhammad-abiodun-sulaiman)
+
+__Twitter:__ [@Prince_Analyst](https://wwww.twitter.com/Prince_Analyst)
+
+__Facebook:__ [Muhammad Abiodun Sulaiman](https://www.facebook.com/muhammad.herbehordeun)
+
+__Tel:__ +2348108316393
+
+![My Pix.png](https://user-images.githubusercontent.com/45925374/140731559-e56f334c-8e89-48b8-92f7-fbe66a7447d9.png)
