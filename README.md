@@ -53,13 +53,15 @@ Try running the following commands:
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices.
 - Learn more about snowflakes [in the docs](https://docs.snowflake.com/)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 __Author:__ Muhammad Abiodun Sulaiman
 
 __Email:__ prince.behordeun@gmail.com or abiodun.msulaiman@gmail.com
 
 __LinkedIn:__ [Muhammad Abiodun Sulaiman](https://www.linkedin.com/in/muhammad-abiodun-sulaiman)
 
-__Twitter:__ [@Prince_Analyst](https://wwww.twitter.com/Prince_Analyst)
+__Twitter:__ [@Prince_Analyst](https://www.twitter.com/Prince_Analyst)
 
 __Facebook:__ [Muhammad Abiodun Sulaiman](https://www.facebook.com/muhammad.herbehordeun)
 
